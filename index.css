@@ -12,6 +12,7 @@ h1{
     color: white;
     font-weight: bold;
     font-size: 350%;
+    margin-left: 2%;
 }
 span{
     color: #1dd3b0;
@@ -19,6 +20,7 @@ span{
 p{
     color: #F2F2F2;
     font-size: 250%;
+    margin-left: 2%;
 }
 
 #password-holder{
