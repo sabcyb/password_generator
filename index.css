@@ -1,0 +1,45 @@
+#container{
+    min-width: 30%;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #3c1642;
+    margin-top: 10%;
+    border: 10px solid #F2F2F2;
+    border-radius: 20px;
+    padding: 10% 10%;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 350%;
+}
+span{
+    color: #1dd3b0;
+}
+p{
+    color: #F2F2F2;
+    font-size: 250%;
+}
+
+#password-holder{
+    padding: 10% 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+#btn{
+    background-color: #1dd3b0;
+    border: none;
+    padding: 2% 2.5%;
+    color: white;
+    border-radius: 2px;
+}
+#pass-1, #pass-2{
+    background-color: #0dac85;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 40px;
+    margin: 2% 2%;
+}
+
