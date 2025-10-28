@@ -29,3 +29,25 @@ document.querySelector("#btn").addEventListener("click",function(){
     document.querySelector("#pass-1").textContent = pass_1;
     document.querySelector("#pass-2").textContent = pass_2;
 })
+
+document.getElementById("pass-1").addEventListener("click", function () {
+    const text = document.getElementById("pass-1").innerText;
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        alert("Copied to clipboard!");
+      })
+      .catch(err => {
+        console.error("Failed to copy: ", err);
+      });
+  });
+
+  document.getElementById("pass-2").addEventListener("click", function () {
+    const text = document.getElementById("pass-2").innerText;
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        alert("Copied to clipboard!");
+      })
+      .catch(err => {
+        console.error("Failed to copy: ", err);
+      });
+  });
