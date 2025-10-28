@@ -3,10 +3,9 @@
     width: 40%;
     margin: 0 auto;
     background-color: #3c1642;
-    margin-top: 10%;
     border: 10px solid #F2F2F2;
     border-radius: 20px;
-    padding: 10% 10%;
+    padding: 6% 10%;
 }
 
 h1{
@@ -33,6 +32,7 @@ p{
     padding: 2% 2.5%;
     color: white;
     border-radius: 2px;
+    margin-left: 2%;
 }
 #pass-1, #pass-2{
     background-color: #0dac85;
@@ -45,3 +45,11 @@ p{
     font-weight: bold;
 }
 
+#btn:hover{
+    background-color: #0a5042;
+    color: white;
+}
+
+#pass-1:hover, #pass-2:hover{
+    background-color: #06523f;
+}
